@@ -1,0 +1,38 @@
+nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        color: aliceblue;
+}
+img{
+        width: 5dvh;
+        height: 5dvh;
+}
+.header{
+        display: flex;
+}
+.header img{
+        width: 10dvh;
+        height: 10dvh;
+}
+h1{
+        font-size: 5dvh;
+        font-style: italic;
+        font-family: "Story Script", sans-serif;
+}
+.header{
+         background: linear-gradient(to right,rgb(139, 36, 180),cyan);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         padding: 0 20px;
+}
+.cart button{
+        margin: 0 5px;
+}
+button{
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        border-radius: 40%;
+        padding: 3px;
+        box-shadow: 2px 2px 2px black;
+}
