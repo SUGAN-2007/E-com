@@ -1,38 +1,33 @@
-nav{
+.main{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
-        color: aliceblue;
+        padding: 20px 20px 5px 20px;
+        user-select: none;
 }
-img{
-        width: 5dvh;
-        height: 5dvh;
-}
-.header{
+.header {
         display: flex;
 }
-.header img{
+.header img {
         width: 10dvh;
-        height: 10dvh;
+        height: 11dvh;
 }
-h1{
-        font-size: 5dvh;
-        font-style: italic;
-        font-family: "Story Script", sans-serif;
+.header h1 {
+        color: black;
+        font-family: "Moirai One", system-ui;
+        /* font-family: "Sour Gummy", sans-serif; */
+        padding: 1px 10px;
+        font-size: 7dvh;
 }
-.header{
-         background: linear-gradient(to right,rgb(139, 36, 180),cyan);
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
-         padding: 0 20px;
-}
-.cart button{
-        margin: 0 5px;
-}
-button{
+.cart button {
+        margin: 0 10px;
+        padding: 6px;
         background-color: rgb(255, 255, 255);
         cursor: pointer;
         border-radius: 40%;
-        padding: 3px;
-        box-shadow: 2px 2px 2px black;
+        border: none;
+        box-shadow: 2px 2px 2px 2px black;
+}
+.cart img {
+        width: 6dvh;
+        height: 6dvh;
 }
