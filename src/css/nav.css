@@ -6,19 +6,23 @@
 }
 .header {
         display: flex;
+        background-color: aliceblue;
 }
-.header img {
+.cart{
+        background-color: aliceblue;
+}
+.header .logo{
         width: 10dvh;
         height: 11dvh;
 }
-.header h1 {
+.header .head {
         color: black;
         font-family: "Moirai One", system-ui;
         /* font-family: "Sour Gummy", sans-serif; */
         padding: 1px 10px;
         font-size: 7dvh;
 }
-.cart button {
+.cart .but {
         margin: 0 10px;
         padding: 6px;
         background-color: rgb(255, 255, 255);
@@ -27,7 +31,7 @@
         border: none;
         box-shadow: 2px 2px 2px 2px black;
 }
-.cart img {
+.cart .image {
         width: 6dvh;
         height: 6dvh;
 }
