@@ -4,12 +4,14 @@
         user-select: none;
         height: 13dvh;
 }
+
 .nav-header {
         margin: 0 15px;
         display: flex;
         align-items: center;
         gap: 20px;
 }
+
 .nav-logo {
         padding: 5px;
         width: 7dvh;
@@ -18,11 +20,13 @@
         background-color: hsl(0, 0%, 900%);
         box-shadow: 2px 2px 5px hsl(0, 0%, 80%);
 }
+
 .nav-head {
         font-family: "Moirai One", system-ui;
         font-size: 6dvh;
         text-shadow: 2px 2px hsl(0, 0%, 80%);
 }
+
 .nav-cart {
         display: flex;
         width: 40%;
@@ -30,14 +34,14 @@
         align-items: center;
         margin: 3dvh 2dvh;
         border-radius: 10px;
-        background: linear-gradient(to right, hsl(0, 0%, 80%), hsl(0, 0%, 70%), hsl(0,0%, 80%));
+        background: linear-gradient(to right, hsl(0, 0%, 80%), hsl(0, 0%, 70%), hsl(0, 0%, 80%));
         box-shadow: 2px 2px 5px hsl(0, 0%, 70%);
 }
+
 .nav-link {
-                color: rgb(0, 0, 0);
         text-decoration: none;
         background-color: rgb(179, 173, 173);
-        padding:1.2dvh 2dvh;
+        padding: 1.2dvh 2dvh;
         font-family: "Comic Neue", cursive;
         font-size: 2dvh;
         border-radius: 8px;

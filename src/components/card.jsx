@@ -4,28 +4,28 @@ import '../css/card.css'
 import { shirts } from '../data'
 export default function Products() {
         return (
-                <main>
-                        <p>Shirts</p>
-                        {shirts.map((item, index) => (
-                                <div key={index}>
-                                        <div className="pro-card">
-                                                <div>
-                                                        <img src={item.image} alt={item.name} width="150" />
+                <>
+                        <p className="card-head">Shirts</p>
+                        <main className="pro-cards">
+                                {shirts.map((item, index) => (
+                                        <div className="pro-card" key={index}>
+                                                <div >
+                                                        <img className="pro-img" src={item.image} alt={item.name} />
                                                 </div>
-                                                <div>
-                                                        <p>{item.name}</p>
-                                                        <p>{item.rs}</p>
+                                                <div className="pro-con">
+                                                        <p className="pro-name">{item.name}</p>
+                                                        <p className="pro-rs">{item.rs}</p>
                                                         {/* <p>{item.des}</p> */}
                                                         <div className="numberofproducts">
-                                                                <button>-</button>
+                                                                <button className="pro-but">-</button>
                                                                 <p>0</p>
-                                                                <button>+</button>
+                                                                <button className="pro-but">+</button>
                                                         </div>
+                                                        <button>Add to cart</button>
                                                 </div>
                                         </div>
-                                        <button>Add to cart</button>
-                                </div>
-                        ))}
-                </main>
+                                ))}
+                        </main>
+                </>
         );
 }
