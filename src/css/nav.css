@@ -30,8 +30,8 @@
         align-items: center;
         margin: 3dvh 2dvh;
         border-radius: 10px;
-        background: linear-gradient(to right, hsl(0, 0%, 95%), hsl(0, 0%, 90%), hsl(0, 0%, 95%));
-        box-shadow: 2px 2px 1px hsl(0, 0%, 80%);
+        background: linear-gradient(to right, hsl(0, 0%, 80%), hsl(0, 0%, 70%), hsl(0,0%, 80%));
+        box-shadow: 2px 2px 5px hsl(0, 0%, 70%);
 }
 .nav-link {
                 color: rgb(0, 0, 0);
@@ -40,8 +40,7 @@
         padding:1.2dvh 2dvh;
         font-family: "Comic Neue", cursive;
         font-size: 2dvh;
-        border-radius: 5px;
-        background: linear-gradient(to right, hsl(0, 0%, 93%), hsl(0, 0%, 95%), hsl(0, 0%, 93%));
-        box-shadow: 2px 2px 1px hsl(0, 0%, 80%);
-        border: 2px hsl(0, 0%, 90%) solid;
+        border-radius: 8px;
+        background: linear-gradient(to right, hsl(0, 0%, 90%), hsl(0, 0%, 88%), hsl(0, 0%, 85%), hsl(0, 0%, 83%), hsl(0, 0%, 80%));
+        box-shadow: 2px 2px 1px hsl(0, 0%, 20%);
 }
