@@ -1,7 +1,7 @@
 import Cart from "./cart";
 import Nav from "./nav";
 import '../css/card.css'
-import {shirts} from '../data'
+import { shirts } from '../data'
 export default function Products() {
         return (
                 <main>

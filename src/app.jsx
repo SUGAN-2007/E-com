@@ -6,7 +6,7 @@ function App() {
         return (
                 <main>
                         <Nav />
-                        <Products/>
+                        <Products />
                 </main>
         )
 }
