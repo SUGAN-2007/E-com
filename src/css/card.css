@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Coming+Soon&family=Macondo&family=Moirai+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+p{
+      font-family: "Comic Neue", cursive;
+      /* font-family: "Montserrat", sans-serif; */
+      /*font-family: "Coming Soon", cursive;*/
+      /*font-family: "Raleway", sans-serif;*/
+      /*font-family: "SUSE Mono", sans-serif;*/
+}
