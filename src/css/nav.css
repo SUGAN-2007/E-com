@@ -1,37 +1,41 @@
-.main{
+.main {
         display: flex;
         justify-content: space-between;
-        padding: 20px 20px 5px 20px;
         user-select: none;
 }
-.header {
+
+/* .header {
+        background-color: aliceblue;
+} */
+.header .logo {
+        padding: 5px;
+        width: 7dvh;
+        height: 7dvh;
+        border-radius: 50%;
+        background-color: rgb(218, 214, 214);
+        margin: 15px;
+        box-shadow: 2px 2px 1px hsl(0, 0%, 80%);
+}
+
+.cart {
         display: flex;
-        background-color: aliceblue;
+        width: 40%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(208, 204, 204);
+        margin: 3dvh 2dvh;
+        border-radius: 10px;
+        background: linear-gradient(to right, hsl(0, 0%, 95%), hsl(0, 0%, 90%), hsl(0, 0%, 95%));
+        box-shadow: 2px 2px 1px hsl(0, 0%, 80%);
 }
-.cart{
-        background-color: aliceblue;
-}
-.header .logo{
-        width: 10dvh;
-        height: 11dvh;
-}
-.header .head {
-        color: black;
-        font-family: "Moirai One", system-ui;
-        /* font-family: "Sour Gummy", sans-serif; */
-        padding: 1px 10px;
-        font-size: 7dvh;
-}
-.cart .but {
-        margin: 0 10px;
-        padding: 6px;
-        background-color: rgb(255, 255, 255);
-        cursor: pointer;
-        border-radius: 40%;
-        border: none;
-        box-shadow: 2px 2px 2px 2px black;
-}
-.cart .image {
-        width: 6dvh;
-        height: 6dvh;
+
+.link {
+        text-decoration: none;
+        background-color: rgb(179, 173, 173);
+        padding: 8px 10px;
+        font-family: "Comic Neue", cursive;
+        border-radius: 5px;
+        background: linear-gradient(to right, hsl(0, 0%, 93%), hsl(0, 0%, 95%), hsl(0, 0%, 93%));
+        box-shadow: 2px 2px 1px hsl(0, 0%, 80%);
+        border: 2px hsl(0, 0%, 90%) solid;
 }
