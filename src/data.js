@@ -14,13 +14,6 @@ export const shirts = [
                 des: "This brown short-sleeve shirt is perfect for summer comfort. Its lightweight fabric allows breathability throughout the day. The earthy tone makes it versatile for casual outings. Easy to pair with denim or chinos for a simple, clean look."
         },
         {
-                no: 3,
-                name: "Green Checkered Shirt",
-                image: "/products/3.webp",
-                rs: "$32.00",
-                des: "A timeless green checkered shirt crafted from soft flannel material. Perfect for casual wear and layering during cooler seasons. The pattern adds a rustic charm, making it great for outdoor gatherings. A classic choice that never goes out of style."
-        },
-        {
                 no: 4,
                 name: "Maroon Plaid Shirt",
                 image: "/products/4.webp",
@@ -54,6 +47,13 @@ export const shirts = [
                 image: "/products/8.webp",
                 rs: "$31.00",
                 des: "A classic brown formal shirt that combines sophistication with comfort. Designed for both office meetings and evening dinners. Its smooth finish ensures a polished look. Perfect when paired with black or grey trousers."
+        },
+                {
+                no: 3,
+                name: "Green Checkered Shirt",
+                image: "/products/3.webp",
+                rs: "$32.00",
+                des: "A timeless green checkered shirt crafted from soft flannel material. Perfect for casual wear and layering during cooler seasons. The pattern adds a rustic charm, making it great for outdoor gatherings. A classic choice that never goes out of style."
         },
         {
                 no: 9,
