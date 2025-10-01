@@ -48,3 +48,6 @@
         background: linear-gradient(to right, hsl(0, 0%, 90%), hsl(0, 0%, 88%), hsl(0, 0%, 85%), hsl(0, 0%, 83%), hsl(0, 0%, 80%));
         box-shadow: 2px 2px 1px hsl(0, 0%, 20%);
 }
+.nav-blur{
+        filter: blur(10px);
+}

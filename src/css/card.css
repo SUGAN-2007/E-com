@@ -23,50 +23,115 @@
         padding: 10px;
         background-color: hsl(0, 0%, 90%);
         color: black;
-        margin:5px;
+        margin: 5px;
+        border-radius: 20px;
 }
 
 .pro-img {
         width: 200px;
         height: 200px;
-        border-radius: 10px;
+        padding: 20px 0;
 }
 
+.pro-name {
+        cursor: pointer;
+        font-weight: 800;
+}
+
+.pro-rs {
+        font-weight: 900;
+}
+
+.pro-con * {
+        padding: 5px 0;
+}
+
+.pro-pur {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+}
 .numberofproducts {
         display: flex;
-        background-color: rgb(0, 0, 0);
         gap: 20px;
-        width: 80px;
+        justify-content: space-between;
         align-items: center;
+        background-color: black;
+        width: 48%;
+        border-radius: 10px;
 }
-.numberofproducts button{
-        padding: 3px;
-}
-.numberofproducts p{
-        padding: 2px;
-        color: rgb(255, 255, 255);
-}
-.pro-name{
+.numberofproducts button {
+        padding: 0 0;
+        border-radius: 10px;
+        background: radial-gradient(white, white, gray);
+        font-size: 19px;
+        width: 40px;
+        font-weight: 600;
         cursor: pointer;
 }
+.numberofproducts p {
+        color: rgb(255, 255, 255);
+        background-color: black;
+}
 
-.pro-des{
-        position: absolute;
-        top: 5dvh;
-        left: 5dvh;
-        width: 95%;
-        height: 90%;
-        background-color: white;
+.numberofproducts img {
+        width: 10px;
+        padding: 0;
+}
+
+.pro-cart {
+        cursor: pointer;
+        width: 48%;
+        font-family: "SUSE Mono", sans-serif;
+        font-size: 13px;
+        border-radius: 5px;
+        background: radial-gradient(circle, hsl(0, 0%, 100%), hsl(0, 0%, 95%), hsl(0, 0%, 80%));
+}
+
+.pro-des {
         opacity: 0;
         z-index: -1;
 }
-.pro-vis{
-         position: absolute;
+
+.pro-vis {
+        position: absolute;
         top: 5dvh;
-        left: 5dvh;
+        left: 5dvb;
         width: 95%;
         height: 90%;
-        background-color: white;
+        background-color: rgb(237, 235, 235);
+        box-shadow: 0 0 10px black;
+        border-radius: 20px;
         opacity: 1;
-        z-index: 1;       
+        z-index: 1;
+}
+
+.pro-vis-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+}
+
+.pro-vis-quit {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+}
+
+.pro-vis-quit img {
+        width: 40px;
+        height: 40px;
+}
+
+.pro-vis-logo {
+        width: 70px;
+        height: 70px;
+}
+.pro-cards-blur{
+        filter: blur(10px);
+        overflow: hidden;
 }
