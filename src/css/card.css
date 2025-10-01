@@ -51,6 +51,7 @@
         justify-content: space-between;
         height: 30px;
 }
+
 .numberofproducts {
         display: flex;
         gap: 20px;
@@ -60,6 +61,7 @@
         width: 48%;
         border-radius: 10px;
 }
+
 .numberofproducts button {
         padding: 0 0;
         border-radius: 10px;
@@ -69,6 +71,7 @@
         font-weight: 600;
         cursor: pointer;
 }
+
 .numberofproducts p {
         color: rgb(255, 255, 255);
         background-color: black;
@@ -131,7 +134,7 @@
         width: 70px;
         height: 70px;
 }
-.pro-cards-blur{
+
+.pro-cards-blur {
         filter: blur(10px);
-        overflow: hidden;
 }
