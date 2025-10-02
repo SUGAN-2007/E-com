@@ -1,9 +1,10 @@
 import '../css/nav.css'
+import '../css/app.css'
 
-export default function Nav() {
+export default function Nav({active}) {
         return (
                 <>
-                        <nav className='nav-main'>
+                        <nav className={active ? 'back-drop' : 'nav-main'}>
                                 <div className='nav-header'>
                                         <img className='nav-logo' src="/image/logo-trans.png" alt="" />
                                         <h1 className='nav-head'>Urbanly</h1>
