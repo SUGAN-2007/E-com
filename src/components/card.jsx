@@ -1,31 +1,31 @@
-import "../css/card.css";
-import { shirts } from "../data";
-import { useState } from "react";
+import "../css/card.css"
+import { shirts } from "../data"
+import { useState } from "react"
 import '../css/app.css'
 
 export default function Products({ active, setActive }) {
-    const [counts, setCounts] = useState(Array(shirts.length).fill(0));
-    const [des, setDes] = useState("");
-    const [name, setName] = useState("");
-    const [image, setImage] = useState("");
-    const [rs,setRs] = useState("")
+    const [counts, setCounts] = useState(Array(shirts.length).fill(0))
+    const [des, setDes] = useState("")
+    const [name, setName] = useState("")
+    const [image, setImage] = useState("")
+    const [rs, setRs] = useState("")
 
     function cart_add(index) {
-        const newCounts = [...counts];
-        newCounts[index] += 1;
-        setCounts(newCounts);
+        const newCounts = [...counts]
+        newCounts[index] += 1
+        setCounts(newCounts)
     }
 
     function cart_remove(index) {
-        const newCounts = [...counts];
-        if (newCounts[index] > 0) newCounts[index] -= 1;
-        setCounts(newCounts);
+        const newCounts = [...counts]
+        if (newCounts[index] > 0) newCounts[index] -= 1
+        setCounts(newCounts)
     }
 
     function pro_des(index) {
-        setDes(shirts[index].des);
-        setName(shirts[index].name);
-        setImage(shirts[index].image);
+        setDes(shirts[index].des)
+        setName(shirts[index].name)
+        setImage(shirts[index].image)
         setRs(shirts[index].rs)
     }
 
@@ -42,8 +42,8 @@ export default function Products({ active, setActive }) {
                             <a
                                 className="pro-name"
                                 onClick={() => {
-                                    pro_des(index);
-                                    setActive(true);
+                                    pro_des(index)
+                                    setActive(true)
                                 }}
                             >
                                 {item.name}
@@ -67,7 +67,6 @@ export default function Products({ active, setActive }) {
                 ))}
             </main>
 
-            {/* Product Details */}
             <div className={active ? "pro-vis" : "pro-des"}>
                 <div className="pro-vis-header">
                     <img
@@ -85,5 +84,5 @@ export default function Products({ active, setActive }) {
                 <p className="pro-vis-des">{des}</p>
             </div>
         </div>
-    );
+    )
 }
